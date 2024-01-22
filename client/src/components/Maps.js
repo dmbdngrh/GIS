@@ -160,7 +160,7 @@ const Maps = ({ onMarkerClick, putMarkerState, locationMarkerCoor, currentSelect
         console.log(placeName);
     return (<>
         <div className='map-container'>
-            <LoadScript googleMapsApiKey="AIzaSyBSDZ3R4eQVKRFGo6JdTQTPU2IaJv65wfM">
+            <LoadScript googleMapsApiKey="[GMAPS_API_KEY]">
                 <GoogleMap
                     mapContainerStyle={containerStyle}
                     center={center}
