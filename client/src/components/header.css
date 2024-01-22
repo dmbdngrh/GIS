@@ -1,0 +1,25 @@
+.top-bar{
+    display: flex;
+    align-items: center;
+    z-index: 1;
+    flex-wrap: wrap;
+    height: calc(100vh / (var(--golden-ratio) * var(--golden-ratio) * var(--golden-ratio) * var(--golden-ratio) * var(--golden-ratio)));
+    background: var(--color-1);
+    color:var(--color-5);
+    border-bottom: 4px outset var(--color-4);
+}
+
+.tittle-text{
+    font-size: 4vh;
+}
+
+.tittle-logo{
+    margin-left: 5vw;
+    padding-left: 0.5vw;
+    padding-right: 0.5vw;
+    padding-bottom: 0.5vh; 
+    width: 5vh;
+    height: 5vh;
+    fill: var(--color-4);
+    
+}
